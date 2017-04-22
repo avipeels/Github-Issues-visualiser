@@ -1,2 +1,7 @@
 /* Styles go here */
 
+.optimal-size {
+    display: inline-block;
+    width: 300px;
+    height: 300px
+}
