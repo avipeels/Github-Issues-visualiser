@@ -1,7 +1,11 @@
 /* Styles go here */
 
-.optimal-size {
+.optimalSize {
     display: inline-block;
     width: 300px;
     height: 300px
+}
+
+.gitHubUrlInputWidth{
+    width: 30%;
 }
