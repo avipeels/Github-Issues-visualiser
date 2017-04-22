@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--[if lt IE 9]>
+  <script src="excanvas.js"></script>
+  <script src="es5-shim.js"></script>
+<![endif]-->
+</head>
+
+<body ng-app="myApp">
+    <div ng-controller="myCtrl">
+        <div>
+            <input placeholder="Please enter a github URL" ng-change="searchGithub()" ng-model-options="{debounce:800}" ng-model="githubAccount.githubUrl" type="text" id="githubUrl" name="githubUrl" />
+            <div id="githubUrlError" ng-messages="githubUrl.$error">
+                <div ng-message="url" class="alert alert-danger formError" role="alert" ng-if="githubUrl.$error||githubUrl.$touched||githubUrl.$dirty"||githubUrl.$invalid>
+                    Url Should be valid (Example:https://github.com/avipeels/dxThn)
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <h4>Open Issues</h4>
+            <h6>{{openIssueCount}}</h6>
+            <h4>Closed Issues</h4>
+            <h6>{{closedIssueCount}}</h6>
+        </div>
+        <canvas width="400" height="400" id="chart-pie" class="chart chart-pie" chart-data="issueCollection" chart-labels="labels" chart-options="options"></canvas>
+        <canvas width="300" height="300" style="width:300px;height:300px" id="bar" class="chart chart-bar" chart-data="issueCollection" chart-labels="labels" chart-series="series" chart-options="options"></canvas>
+        <!--        <canvas id="polar-area" class="chart chart-polar-area" chart-data="issueCollection" chart-labels="labels" chart-options="options">-->
+        </canvas>
+        <link data-require="bootstrap@3.0.0" data-semver="3.0.0" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <script data-require="angular.js@1.4.9" data-semver="1.4.9" src="https://code.angularjs.org/1.4.12/angular.js"></script>
+        <script data-require="jquery@2.0.0" data-semver="2.0.0" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+        <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+        <script src="githubIssueController.js"></script>
+</body>
+
+</html>

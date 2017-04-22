@@ -1,0 +1,519 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'chart.js',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData chart.js
+8 silly fetchNamedPackageData chart.js
+9 silly mapToRegistry name chart.js
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'chart.js',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'chart.js',
+12 silly mapToRegistry   name: 'chart.js',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+14 verbose request uri https://registry.npmjs.org/chart.js
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:10:24 AM
+17 verbose request id f9924f1454fcbda8
+18 verbose etag W/"58f859ca-bba2"
+19 verbose lastModified Thu, 20 Apr 2017 06:48:42 GMT
+20 http request GET https://registry.npmjs.org/chart.js
+21 http 304 https://registry.npmjs.org/chart.js
+22 verbose headers { date: 'Sat, 22 Apr 2017 04:40:28 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"58f859ca-bba2"',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1492836029.538990,VS0,VE101',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sat, 22 Apr 2017 04:40:28 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"58f859ca-bba2"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin18023-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1492836029.538990,VS0,VE101',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/chart.js from cache
+25 verbose get saving chart.js to C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\registry.npmjs.org\chart.js\.cache.json
+26 verbose correctMkdir C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule chart.js@2.5.0 checking installable status
+40 silly cache add args [ 'chart.js', null ]
+41 verbose cache add spec chart.js
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'chart.js',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'chart.js',
+42 silly cache add   name: 'chart.js',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed chart.js@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for chart.js
+45 info addNameTag [ 'chart.js', 'latest' ]
+46 silly mapToRegistry name chart.js
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'chart.js',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'chart.js',
+49 silly mapToRegistry   name: 'chart.js',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+51 verbose addNameTag registry:https://registry.npmjs.org/chart.js not in flight; fetching
+52 verbose get https://registry.npmjs.org/chart.js not expired, no request
+53 silly addNameTag next cb for chart.js with tag latest
+54 silly addNamed chart.js@2.5.0
+55 verbose addNamed "2.5.0" is a plain semver version for chart.js
+56 silly cache afterAdd chart.js@2.5.0
+57 verbose afterAdd C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\chart.js\2.5.0\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\chart.js\2.5.0\package\package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree Github Issues
+62 silly currentTree +-- angular-chart.js@1.1.1
+62 silly currentTree | `-- chart.js@2.3.0
+62 silly currentTree +-- angular@1.6.4
+62 silly currentTree +-- chart.js@2.5.0
+62 silly currentTree +-- chartjs-color-string@0.4.0
+62 silly currentTree +-- chartjs-color@2.1.0
+62 silly currentTree +-- color-convert@0.5.3
+62 silly currentTree +-- color-name@1.1.2
+62 silly currentTree `-- moment@2.18.1
+63 silly idealTree Github Issues
+63 silly idealTree +-- angular-chart.js@1.1.1
+63 silly idealTree | `-- chart.js@2.3.0
+63 silly idealTree +-- angular@1.6.4
+63 silly idealTree +-- chart.js@2.5.0
+63 silly idealTree +-- chartjs-color-string@0.4.0
+63 silly idealTree +-- chartjs-color@2.1.0
+63 silly idealTree +-- color-convert@0.5.3
+63 silly idealTree +-- color-name@1.1.2
+63 silly idealTree `-- moment@2.18.1
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 silly generateActionsToTake Finishing
+67 silly diffTrees action count 1
+68 silly diffTrees update chart.js@2.5.0
+69 silly decomposeActions action count 9
+70 silly decomposeActions remove chart.js@2.5.0
+71 silly decomposeActions fetch chart.js@2.5.0
+72 silly decomposeActions extract chart.js@2.5.0
+73 silly decomposeActions test chart.js@2.5.0
+74 silly decomposeActions preinstall chart.js@2.5.0
+75 silly decomposeActions build chart.js@2.5.0
+76 silly decomposeActions install chart.js@2.5.0
+77 silly decomposeActions postinstall chart.js@2.5.0
+78 silly decomposeActions finalize chart.js@2.5.0
+79 silly runTopLevelLifecycles Starting
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+85 verbose lock using C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\_locks\staging-b5157eb6afa3529a.lock for C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging
+86 silly doParallel extract 1
+87 silly extract chart.js@2.5.0
+88 verbose unbuild node_modules\.staging\chart.js-7e2a5f32
+89 silly gentlyRm C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32 is being purged from base C:\Users\avinash.peelukhana\My Projects\Github Issues
+90 verbose gentlyRm don't care about contents; nuking C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32
+91 verbose tar unpack C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\chart.js\2.5.0\package.tgz
+92 verbose tar unpacking to C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32
+93 silly gentlyRm C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32 is being purged
+94 verbose gentlyRm don't care about contents; nuking C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32
+95 silly gunzTarPerm modes [ '777', '666' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+98 silly gunzTarPerm extractEntry .npmignore
+99 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+100 silly gunzTarPerm extractEntry README.md
+101 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+102 silly gunzTarPerm extractEntry gulpfile.js
+103 silly gunzTarPerm modified mode [ 'gulpfile.js', 436, 438 ]
+104 silly gunzTarPerm extractEntry karma.conf.ci.js
+105 silly gunzTarPerm modified mode [ 'karma.conf.ci.js', 436, 438 ]
+106 silly gunzTarPerm extractEntry karma.conf.js
+107 silly gunzTarPerm modified mode [ 'karma.conf.js', 436, 438 ]
+108 silly gunzTarPerm extractEntry karma.coverage.conf.js
+109 silly gunzTarPerm modified mode [ 'karma.coverage.conf.js', 436, 438 ]
+110 silly gunzTarPerm extractEntry config.jshintrc
+111 silly gunzTarPerm modified mode [ 'config.jshintrc', 436, 438 ]
+112 silly gunzTarPerm extractEntry CONTRIBUTING.md
+113 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 436, 438 ]
+114 silly gunzTarPerm extractEntry LICENSE.md
+115 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+116 silly gunzTarPerm extractEntry MAINTAINING.md
+117 silly gunzTarPerm modified mode [ 'MAINTAINING.md', 436, 438 ]
+118 silly gunzTarPerm extractEntry .editorconfig
+119 silly gunzTarPerm modified mode [ '.editorconfig', 436, 438 ]
+120 silly gunzTarPerm extractEntry bower.json
+121 silly gunzTarPerm modified mode [ 'bower.json', 436, 438 ]
+122 silly gunzTarPerm extractEntry composer.json
+123 silly gunzTarPerm modified mode [ 'composer.json', 436, 438 ]
+124 silly gunzTarPerm extractEntry dist/Chart.bundle.js
+125 silly gunzTarPerm modified mode [ 'dist/Chart.bundle.js', 436, 438 ]
+126 silly gunzTarPerm extractEntry dist/Chart.bundle.min.js
+127 silly gunzTarPerm modified mode [ 'dist/Chart.bundle.min.js', 436, 438 ]
+128 silly gunzTarPerm extractEntry dist/Chart.js
+129 silly gunzTarPerm modified mode [ 'dist/Chart.js', 436, 438 ]
+130 silly gunzTarPerm extractEntry dist/Chart.min.js
+131 silly gunzTarPerm modified mode [ 'dist/Chart.min.js', 436, 438 ]
+132 silly gunzTarPerm extractEntry docs/05-Radar-Chart.md
+133 silly gunzTarPerm modified mode [ 'docs/05-Radar-Chart.md', 436, 438 ]
+134 silly gunzTarPerm extractEntry docs/00-Getting-Started.md
+135 silly gunzTarPerm modified mode [ 'docs/00-Getting-Started.md', 436, 438 ]
+136 silly gunzTarPerm extractEntry docs/02-Scales.md
+137 silly gunzTarPerm modified mode [ 'docs/02-Scales.md', 436, 438 ]
+138 silly gunzTarPerm extractEntry docs/03-Line-Chart.md
+139 silly gunzTarPerm modified mode [ 'docs/03-Line-Chart.md', 436, 438 ]
+140 silly gunzTarPerm extractEntry docs/04-Bar-Chart.md
+141 silly gunzTarPerm modified mode [ 'docs/04-Bar-Chart.md', 436, 438 ]
+142 silly gunzTarPerm extractEntry docs/01-Chart-Configuration.md
+143 silly gunzTarPerm modified mode [ 'docs/01-Chart-Configuration.md', 436, 438 ]
+144 silly gunzTarPerm extractEntry docs/06-Polar-Area-Chart.md
+145 silly gunzTarPerm modified mode [ 'docs/06-Polar-Area-Chart.md', 436, 438 ]
+146 silly gunzTarPerm extractEntry docs/07-Pie-Doughnut-Chart.md
+147 silly gunzTarPerm modified mode [ 'docs/07-Pie-Doughnut-Chart.md', 436, 438 ]
+148 silly gunzTarPerm extractEntry docs/08-Bubble-Chart.md
+149 silly gunzTarPerm modified mode [ 'docs/08-Bubble-Chart.md', 436, 438 ]
+150 silly gunzTarPerm extractEntry docs/09-Advanced.md
+151 silly gunzTarPerm modified mode [ 'docs/09-Advanced.md', 436, 438 ]
+152 silly gunzTarPerm extractEntry docs/10-Notes.md
+153 silly gunzTarPerm modified mode [ 'docs/10-Notes.md', 436, 438 ]
+154 silly gunzTarPerm extractEntry .eslintignore
+155 silly gunzTarPerm modified mode [ '.eslintignore', 436, 438 ]
+156 silly gunzTarPerm extractEntry .eslintrc
+157 silly gunzTarPerm modified mode [ '.eslintrc', 436, 438 ]
+158 silly gunzTarPerm extractEntry test/controller.bar.tests.js
+159 silly gunzTarPerm modified mode [ 'test/controller.bar.tests.js', 436, 438 ]
+160 silly gunzTarPerm extractEntry test/core.layoutService.tests.js
+161 silly gunzTarPerm modified mode [ 'test/core.layoutService.tests.js', 436, 438 ]
+162 silly gunzTarPerm extractEntry test/core.legend.tests.js
+163 silly gunzTarPerm modified mode [ 'test/core.legend.tests.js', 436, 438 ]
+164 silly gunzTarPerm extractEntry test/core.plugin.tests.js
+165 silly gunzTarPerm modified mode [ 'test/core.plugin.tests.js', 436, 438 ]
+166 silly gunzTarPerm extractEntry test/core.interaction.tests.js
+167 silly gunzTarPerm modified mode [ 'test/core.interaction.tests.js', 436, 438 ]
+168 silly gunzTarPerm extractEntry test/core.title.tests.js
+169 silly gunzTarPerm modified mode [ 'test/core.title.tests.js', 436, 438 ]
+170 silly gunzTarPerm extractEntry test/core.tooltip.tests.js
+171 silly gunzTarPerm modified mode [ 'test/core.tooltip.tests.js', 509, 511 ]
+172 silly gunzTarPerm extractEntry test/defaultConfig.tests.js
+173 silly gunzTarPerm modified mode [ 'test/defaultConfig.tests.js', 436, 438 ]
+174 silly gunzTarPerm extractEntry test/element.arc.tests.js
+175 silly gunzTarPerm modified mode [ 'test/element.arc.tests.js', 436, 438 ]
+176 silly gunzTarPerm extractEntry test/element.line.tests.js
+177 silly gunzTarPerm modified mode [ 'test/element.line.tests.js', 436, 438 ]
+178 silly gunzTarPerm extractEntry test/core.helpers.tests.js
+179 silly gunzTarPerm modified mode [ 'test/core.helpers.tests.js', 436, 438 ]
+180 silly gunzTarPerm extractEntry test/element.point.tests.js
+181 silly gunzTarPerm modified mode [ 'test/element.point.tests.js', 436, 438 ]
+182 silly gunzTarPerm extractEntry test/core.element.tests.js
+183 silly gunzTarPerm modified mode [ 'test/core.element.tests.js', 436, 438 ]
+184 silly gunzTarPerm extractEntry test/element.rectangle.tests.js
+185 silly gunzTarPerm modified mode [ 'test/element.rectangle.tests.js', 436, 438 ]
+186 silly gunzTarPerm extractEntry test/core.datasetController.tests.js
+187 silly gunzTarPerm modified mode [ 'test/core.datasetController.tests.js', 436, 438 ]
+188 silly gunzTarPerm extractEntry test/mockContext.js
+189 silly gunzTarPerm modified mode [ 'test/mockContext.js', 436, 438 ]
+190 silly gunzTarPerm extractEntry test/core.controller.tests.js
+191 silly gunzTarPerm modified mode [ 'test/core.controller.tests.js', 436, 438 ]
+192 silly gunzTarPerm extractEntry test/platform.dom.tests.js
+193 silly gunzTarPerm modified mode [ 'test/platform.dom.tests.js', 436, 438 ]
+194 silly gunzTarPerm extractEntry test/controller.radar.tests.js
+195 silly gunzTarPerm modified mode [ 'test/controller.radar.tests.js', 436, 438 ]
+196 silly gunzTarPerm extractEntry test/scale.category.tests.js
+197 silly gunzTarPerm modified mode [ 'test/scale.category.tests.js', 436, 438 ]
+198 silly gunzTarPerm extractEntry test/controller.polarArea.tests.js
+199 silly gunzTarPerm modified mode [ 'test/controller.polarArea.tests.js', 436, 438 ]
+200 silly gunzTarPerm extractEntry test/scale.linear.tests.js
+201 silly gunzTarPerm modified mode [ 'test/scale.linear.tests.js', 436, 438 ]
+202 silly gunzTarPerm extractEntry test/controller.line.tests.js
+203 silly gunzTarPerm modified mode [ 'test/controller.line.tests.js', 436, 438 ]
+204 silly gunzTarPerm extractEntry test/scale.logarithmic.tests.js
+205 silly gunzTarPerm modified mode [ 'test/scale.logarithmic.tests.js', 436, 438 ]
+206 silly gunzTarPerm extractEntry test/controller.doughnut.tests.js
+207 silly gunzTarPerm modified mode [ 'test/controller.doughnut.tests.js', 436, 438 ]
+208 silly gunzTarPerm extractEntry test/scale.radialLinear.tests.js
+209 silly gunzTarPerm modified mode [ 'test/scale.radialLinear.tests.js', 436, 438 ]
+210 silly gunzTarPerm extractEntry test/controller.bubble.tests.js
+211 silly gunzTarPerm modified mode [ 'test/controller.bubble.tests.js', 436, 438 ]
+212 silly gunzTarPerm extractEntry test/scale.time.tests.js
+213 silly gunzTarPerm modified mode [ 'test/scale.time.tests.js', 509, 511 ]
+214 silly gunzTarPerm extractEntry test/core.scaleService.tests.js
+215 silly gunzTarPerm modified mode [ 'test/core.scaleService.tests.js', 436, 438 ]
+216 silly gunzTarPerm extractEntry samples/utils.js
+217 silly gunzTarPerm modified mode [ 'samples/utils.js', 436, 438 ]
+218 silly gunzTarPerm extractEntry samples/animation/progress-bar.html
+219 silly gunzTarPerm modified mode [ 'samples/animation/progress-bar.html', 436, 438 ]
+220 silly gunzTarPerm extractEntry samples/bubble.html
+221 silly gunzTarPerm modified mode [ 'samples/bubble.html', 436, 438 ]
+222 silly gunzTarPerm extractEntry samples/combo-bar-line.html
+223 silly gunzTarPerm modified mode [ 'samples/combo-bar-line.html', 436, 438 ]
+224 silly gunzTarPerm extractEntry samples/data_labelling.html
+225 silly gunzTarPerm modified mode [ 'samples/data_labelling.html', 436, 438 ]
+226 silly gunzTarPerm extractEntry samples/doughnut.html
+227 silly gunzTarPerm modified mode [ 'samples/doughnut.html', 436, 438 ]
+228 silly gunzTarPerm extractEntry samples/legend/pointstyle.html
+229 silly gunzTarPerm modified mode [ 'samples/legend/pointstyle.html', 436, 438 ]
+230 silly gunzTarPerm extractEntry samples/legend/positions.html
+231 silly gunzTarPerm modified mode [ 'samples/legend/positions.html', 436, 438 ]
+232 silly gunzTarPerm extractEntry samples/bar/bar-horizontal.html
+233 silly gunzTarPerm modified mode [ 'samples/bar/bar-horizontal.html', 436, 438 ]
+234 silly gunzTarPerm extractEntry samples/bar/bar-multi-axis.html
+235 silly gunzTarPerm modified mode [ 'samples/bar/bar-multi-axis.html', 436, 438 ]
+236 silly gunzTarPerm extractEntry samples/bar/bar-stacked-group.html
+237 silly gunzTarPerm modified mode [ 'samples/bar/bar-stacked-group.html', 436, 438 ]
+238 silly gunzTarPerm extractEntry samples/bar/bar-stacked.html
+239 silly gunzTarPerm modified mode [ 'samples/bar/bar-stacked.html', 436, 438 ]
+240 silly gunzTarPerm extractEntry samples/bar/bar.html
+241 silly gunzTarPerm modified mode [ 'samples/bar/bar.html', 436, 438 ]
+242 silly gunzTarPerm extractEntry samples/pie.html
+243 silly gunzTarPerm modified mode [ 'samples/pie.html', 436, 438 ]
+244 silly gunzTarPerm extractEntry samples/polar-area.html
+245 silly gunzTarPerm modified mode [ 'samples/polar-area.html', 436, 438 ]
+246 silly gunzTarPerm extractEntry samples/radar/radar-skip-points.html
+247 silly gunzTarPerm modified mode [ 'samples/radar/radar-skip-points.html', 436, 438 ]
+248 silly gunzTarPerm extractEntry samples/radar/radar.html
+249 silly gunzTarPerm modified mode [ 'samples/radar/radar.html', 436, 438 ]
+250 silly gunzTarPerm extractEntry samples/scales/display-settings.html
+251 silly gunzTarPerm modified mode [ 'samples/scales/display-settings.html', 436, 438 ]
+252 silly gunzTarPerm extractEntry samples/scales/filtering-labels.html
+253 silly gunzTarPerm modified mode [ 'samples/scales/filtering-labels.html', 436, 438 ]
+254 silly gunzTarPerm extractEntry samples/scales/gridlines.html
+255 silly gunzTarPerm modified mode [ 'samples/scales/gridlines.html', 436, 438 ]
+256 silly gunzTarPerm extractEntry samples/scales/line-non-numeric-y.html
+257 silly gunzTarPerm modified mode [ 'samples/scales/line-non-numeric-y.html', 436, 438 ]
+258 silly gunzTarPerm extractEntry samples/scales/linear/min-max-settings.html
+259 silly gunzTarPerm modified mode [ 'samples/scales/linear/min-max-settings.html', 436, 438 ]
+260 silly gunzTarPerm extractEntry samples/scales/linear/step-size.html
+261 silly gunzTarPerm modified mode [ 'samples/scales/linear/step-size.html', 436, 438 ]
+262 silly gunzTarPerm extractEntry samples/scales/linear/suggested-min-max-settings.html
+263 silly gunzTarPerm modified mode [ 'samples/scales/linear/suggested-min-max-settings.html',
+263 silly gunzTarPerm   436,
+263 silly gunzTarPerm   438 ]
+264 silly gunzTarPerm extractEntry samples/scales/logarithmic/line-logarithmic.html
+265 silly gunzTarPerm modified mode [ 'samples/scales/logarithmic/line-logarithmic.html', 436, 438 ]
+266 silly gunzTarPerm extractEntry samples/scales/logarithmic/scatter-logX.html
+267 silly gunzTarPerm modified mode [ 'samples/scales/logarithmic/scatter-logX.html', 436, 438 ]
+268 silly gunzTarPerm extractEntry samples/scales/multiline-labels.html
+269 silly gunzTarPerm modified mode [ 'samples/scales/multiline-labels.html', 436, 438 ]
+270 silly gunzTarPerm extractEntry samples/scales/time/combo-time-scale.html
+271 silly gunzTarPerm modified mode [ 'samples/scales/time/combo-time-scale.html', 436, 438 ]
+272 silly gunzTarPerm extractEntry samples/scales/time/line-time-point-data.html
+273 silly gunzTarPerm modified mode [ 'samples/scales/time/line-time-point-data.html', 436, 438 ]
+274 silly gunzTarPerm extractEntry samples/scales/time/line-time-scale.html
+275 silly gunzTarPerm modified mode [ 'samples/scales/time/line-time-scale.html', 436, 438 ]
+276 silly gunzTarPerm extractEntry samples/scatter/scatter-multi-axis.html
+277 silly gunzTarPerm modified mode [ 'samples/scatter/scatter-multi-axis.html', 436, 438 ]
+278 silly gunzTarPerm extractEntry samples/scatter/scatter.html
+279 silly gunzTarPerm modified mode [ 'samples/scatter/scatter.html', 436, 438 ]
+280 silly gunzTarPerm extractEntry samples/tooltips/dataPoints-customTooltips.html
+281 silly gunzTarPerm modified mode [ 'samples/tooltips/dataPoints-customTooltips.html', 436, 438 ]
+282 silly gunzTarPerm extractEntry samples/tooltips/interaction-modes.html
+283 silly gunzTarPerm modified mode [ 'samples/tooltips/interaction-modes.html', 436, 438 ]
+284 silly gunzTarPerm extractEntry samples/tooltips/line-customTooltips.html
+285 silly gunzTarPerm modified mode [ 'samples/tooltips/line-customTooltips.html', 436, 438 ]
+286 silly gunzTarPerm extractEntry samples/tooltips/pie-customTooltips.html
+287 silly gunzTarPerm modified mode [ 'samples/tooltips/pie-customTooltips.html', 436, 438 ]
+288 silly gunzTarPerm extractEntry samples/tooltips/position-modes.html
+289 silly gunzTarPerm modified mode [ 'samples/tooltips/position-modes.html', 436, 438 ]
+290 silly gunzTarPerm extractEntry samples/tooltips/tooltip-callbacks.html
+291 silly gunzTarPerm modified mode [ 'samples/tooltips/tooltip-callbacks.html', 436, 438 ]
+292 silly gunzTarPerm extractEntry samples/line/different-point-sizes.html
+293 silly gunzTarPerm modified mode [ 'samples/line/different-point-sizes.html', 436, 438 ]
+294 silly gunzTarPerm extractEntry samples/line/interpolation-modes.html
+295 silly gunzTarPerm modified mode [ 'samples/line/interpolation-modes.html', 436, 438 ]
+296 silly gunzTarPerm extractEntry samples/line/line-multi-axis.html
+297 silly gunzTarPerm modified mode [ 'samples/line/line-multi-axis.html', 436, 438 ]
+298 silly gunzTarPerm extractEntry samples/line/line-skip-points.html
+299 silly gunzTarPerm modified mode [ 'samples/line/line-skip-points.html', 436, 438 ]
+300 silly gunzTarPerm extractEntry samples/line/line-stacked-area.html
+301 silly gunzTarPerm modified mode [ 'samples/line/line-stacked-area.html', 436, 438 ]
+302 silly gunzTarPerm extractEntry samples/line/line-stepped.html
+303 silly gunzTarPerm modified mode [ 'samples/line/line-stepped.html', 436, 438 ]
+304 silly gunzTarPerm extractEntry samples/line/line-styles.html
+305 silly gunzTarPerm modified mode [ 'samples/line/line-styles.html', 436, 438 ]
+306 silly gunzTarPerm extractEntry samples/line/line.html
+307 silly gunzTarPerm modified mode [ 'samples/line/line.html', 436, 438 ]
+308 silly gunzTarPerm extractEntry samples/line/point-styles.html
+309 silly gunzTarPerm modified mode [ 'samples/line/point-styles.html', 436, 438 ]
+310 silly gunzTarPerm extractEntry scripts/release.sh
+311 silly gunzTarPerm modified mode [ 'scripts/release.sh', 509, 511 ]
+312 silly gunzTarPerm extractEntry src/chart.js
+313 silly gunzTarPerm modified mode [ 'src/chart.js', 436, 438 ]
+314 silly gunzTarPerm extractEntry src/charts/Chart.Bar.js
+315 silly gunzTarPerm modified mode [ 'src/charts/Chart.Bar.js', 436, 438 ]
+316 silly gunzTarPerm extractEntry src/charts/Chart.Bubble.js
+317 silly gunzTarPerm modified mode [ 'src/charts/Chart.Bubble.js', 436, 438 ]
+318 silly gunzTarPerm extractEntry src/charts/Chart.Doughnut.js
+319 silly gunzTarPerm modified mode [ 'src/charts/Chart.Doughnut.js', 436, 438 ]
+320 silly gunzTarPerm extractEntry src/charts/Chart.Line.js
+321 silly gunzTarPerm modified mode [ 'src/charts/Chart.Line.js', 436, 438 ]
+322 silly gunzTarPerm extractEntry src/charts/Chart.PolarArea.js
+323 silly gunzTarPerm modified mode [ 'src/charts/Chart.PolarArea.js', 436, 438 ]
+324 silly gunzTarPerm extractEntry src/charts/Chart.Radar.js
+325 silly gunzTarPerm modified mode [ 'src/charts/Chart.Radar.js', 436, 438 ]
+326 silly gunzTarPerm extractEntry src/charts/Chart.Scatter.js
+327 silly gunzTarPerm modified mode [ 'src/charts/Chart.Scatter.js', 436, 438 ]
+328 silly gunzTarPerm extractEntry src/controllers/controller.bar.js
+329 silly gunzTarPerm modified mode [ 'src/controllers/controller.bar.js', 436, 438 ]
+330 silly gunzTarPerm extractEntry src/controllers/controller.bubble.js
+331 silly gunzTarPerm modified mode [ 'src/controllers/controller.bubble.js', 436, 438 ]
+332 silly gunzTarPerm extractEntry src/controllers/controller.doughnut.js
+333 silly gunzTarPerm modified mode [ 'src/controllers/controller.doughnut.js', 436, 438 ]
+334 silly gunzTarPerm extractEntry src/controllers/controller.line.js
+335 silly gunzTarPerm modified mode [ 'src/controllers/controller.line.js', 436, 438 ]
+336 silly gunzTarPerm extractEntry src/controllers/controller.polarArea.js
+337 silly gunzTarPerm modified mode [ 'src/controllers/controller.polarArea.js', 436, 438 ]
+338 silly gunzTarPerm extractEntry src/controllers/controller.radar.js
+339 silly gunzTarPerm modified mode [ 'src/controllers/controller.radar.js', 436, 438 ]
+340 silly gunzTarPerm extractEntry src/core/core.animation.js
+341 silly gunzTarPerm modified mode [ 'src/core/core.animation.js', 436, 438 ]
+342 silly gunzTarPerm extractEntry src/core/core.element.js
+343 silly gunzTarPerm modified mode [ 'src/core/core.element.js', 436, 438 ]
+344 silly gunzTarPerm extractEntry src/core/core.helpers.js
+345 silly gunzTarPerm modified mode [ 'src/core/core.helpers.js', 436, 438 ]
+346 silly gunzTarPerm extractEntry src/core/core.interaction.js
+347 silly gunzTarPerm modified mode [ 'src/core/core.interaction.js', 436, 438 ]
+348 silly gunzTarPerm extractEntry src/core/core.js
+349 silly gunzTarPerm modified mode [ 'src/core/core.js', 509, 511 ]
+350 silly gunzTarPerm extractEntry src/core/core.datasetController.js
+351 silly gunzTarPerm modified mode [ 'src/core/core.datasetController.js', 436, 438 ]
+352 silly gunzTarPerm extractEntry src/core/core.legend.js
+353 silly gunzTarPerm modified mode [ 'src/core/core.legend.js', 436, 438 ]
+354 silly gunzTarPerm extractEntry src/core/core.plugin.js
+355 silly gunzTarPerm modified mode [ 'src/core/core.plugin.js', 436, 438 ]
+356 silly gunzTarPerm extractEntry src/core/core.scale.js
+357 silly gunzTarPerm modified mode [ 'src/core/core.scale.js', 436, 438 ]
+358 silly gunzTarPerm extractEntry src/core/core.scaleService.js
+359 silly gunzTarPerm modified mode [ 'src/core/core.scaleService.js', 436, 438 ]
+360 silly gunzTarPerm extractEntry src/core/core.ticks.js
+361 silly gunzTarPerm modified mode [ 'src/core/core.ticks.js', 436, 438 ]
+362 silly gunzTarPerm extractEntry src/core/core.controller.js
+363 silly gunzTarPerm modified mode [ 'src/core/core.controller.js', 436, 438 ]
+364 silly gunzTarPerm extractEntry src/core/core.title.js
+365 silly gunzTarPerm modified mode [ 'src/core/core.title.js', 436, 438 ]
+366 silly gunzTarPerm extractEntry src/core/core.canvasHelpers.js
+367 silly gunzTarPerm modified mode [ 'src/core/core.canvasHelpers.js', 436, 438 ]
+368 silly gunzTarPerm extractEntry src/core/core.tooltip.js
+369 silly gunzTarPerm modified mode [ 'src/core/core.tooltip.js', 509, 511 ]
+370 silly gunzTarPerm extractEntry src/core/core.layoutService.js
+371 silly gunzTarPerm modified mode [ 'src/core/core.layoutService.js', 436, 438 ]
+372 silly gunzTarPerm extractEntry src/elements/element.arc.js
+373 silly gunzTarPerm modified mode [ 'src/elements/element.arc.js', 436, 438 ]
+374 silly gunzTarPerm extractEntry src/elements/element.line.js
+375 silly gunzTarPerm modified mode [ 'src/elements/element.line.js', 436, 438 ]
+376 silly gunzTarPerm extractEntry src/elements/element.point.js
+377 silly gunzTarPerm modified mode [ 'src/elements/element.point.js', 436, 438 ]
+378 silly gunzTarPerm extractEntry src/elements/element.rectangle.js
+379 silly gunzTarPerm modified mode [ 'src/elements/element.rectangle.js', 436, 438 ]
+380 silly gunzTarPerm extractEntry src/platforms/platform.dom.js
+381 silly gunzTarPerm modified mode [ 'src/platforms/platform.dom.js', 436, 438 ]
+382 silly gunzTarPerm extractEntry src/platforms/platform.js
+383 silly gunzTarPerm modified mode [ 'src/platforms/platform.js', 436, 438 ]
+384 silly gunzTarPerm extractEntry src/scales/scale.category.js
+385 silly gunzTarPerm modified mode [ 'src/scales/scale.category.js', 436, 438 ]
+386 silly gunzTarPerm extractEntry src/scales/scale.linear.js
+387 silly gunzTarPerm modified mode [ 'src/scales/scale.linear.js', 436, 438 ]
+388 silly gunzTarPerm extractEntry src/scales/scale.linearbase.js
+389 silly gunzTarPerm modified mode [ 'src/scales/scale.linearbase.js', 436, 438 ]
+390 silly gunzTarPerm extractEntry src/scales/scale.logarithmic.js
+391 silly gunzTarPerm modified mode [ 'src/scales/scale.logarithmic.js', 436, 438 ]
+392 silly gunzTarPerm extractEntry src/scales/scale.radialLinear.js
+393 silly gunzTarPerm modified mode [ 'src/scales/scale.radialLinear.js', 436, 438 ]
+394 silly gunzTarPerm extractEntry src/scales/scale.time.js
+395 silly gunzTarPerm modified mode [ 'src/scales/scale.time.js', 509, 511 ]
+396 silly gunzTarPerm extractEntry thankyou.md
+397 silly gunzTarPerm modified mode [ 'thankyou.md', 436, 438 ]
+398 silly gentlyRm C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32\node_modules is being purged
+399 verbose gentlyRm don't care about contents; nuking C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32\node_modules
+400 silly doParallel preinstall 1
+401 silly preinstall chart.js@2.5.0 C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging\chart.js-7e2a5f32
+402 info lifecycle chart.js@2.5.0~preinstall: chart.js@2.5.0
+403 silly lifecycle chart.js@2.5.0~preinstall: no script for preinstall, continuing
+404 silly doReverseSerial remove 1
+405 silly remove C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js
+406 verbose unbuild node_modules\chart.js
+407 info lifecycle chart.js@2.5.0~preuninstall: chart.js@2.5.0
+408 silly lifecycle chart.js@2.5.0~preuninstall: no script for preuninstall, continuing
+409 info lifecycle chart.js@2.5.0~uninstall: chart.js@2.5.0
+410 silly lifecycle chart.js@2.5.0~uninstall: no script for uninstall, continuing
+411 verbose unbuild rmStuff chart.js@2.5.0 from C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules
+412 info lifecycle chart.js@2.5.0~postuninstall: chart.js@2.5.0
+413 silly lifecycle chart.js@2.5.0~postuninstall: no script for postuninstall, continuing
+414 silly gentlyRm C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js is being purged from base C:\Users\avinash.peelukhana\My Projects\Github Issues
+415 verbose gentlyRm don't care about contents; nuking C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js
+416 silly vacuum-fs purging C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js
+417 verbose unlock done using C:\Users\avinash.peelukhana\AppData\Roaming\npm-cache\_locks\staging-b5157eb6afa3529a.lock for C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\.staging
+418 silly rollbackFailedOptional Starting
+419 silly rollbackFailedOptional Finishing
+420 silly runTopLevelLifecycles Finishing
+421 silly install printInstalled
+422 warn enoent ENOENT: no such file or directory, open 'C:\Users\avinash.peelukhana\My Projects\Github Issues\package.json'
+423 verbose enoent ENOENT: no such file or directory, open 'C:\Users\avinash.peelukhana\My Projects\Github Issues\package.json'
+423 verbose enoent This is most likely not a problem with npm itself
+423 verbose enoent and is related to npm not being able to find a file.
+424 warn Github Issues No description
+425 verbose If you need help, you may report this error at:
+425 verbose     <https://github.com/npm/npm/issues>
+426 warn Github Issues No repository field.
+427 verbose If you need help, you may report this error at:
+427 verbose     <https://github.com/npm/npm/issues>
+428 warn Github Issues No README data
+429 verbose If you need help, you may report this error at:
+429 verbose     <https://github.com/npm/npm/issues>
+430 warn Github Issues No license field.
+431 verbose If you need help, you may report this error at:
+431 verbose     <https://github.com/npm/npm/issues>
+432 verbose stack Error: EBUSY: resource busy or locked, rmdir 'C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js\dist'
+432 verbose stack     at Error (native)
+433 verbose cwd C:\Users\avinash.peelukhana\My Projects\Github Issues
+434 error Windows_NT 6.2.9200
+435 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "chart.js" "--save"
+436 error node v6.10.0
+437 error npm  v3.10.10
+438 error path C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js\dist
+439 error code EBUSY
+440 error errno -4082
+441 error syscall rmdir
+442 error EBUSY: resource busy or locked, rmdir 'C:\Users\avinash.peelukhana\My Projects\Github Issues\node_modules\chart.js\dist'
+443 error If you need help, you may report this error at:
+443 error     <https://github.com/npm/npm/issues>
+444 verbose exit [ -4082, true ]
