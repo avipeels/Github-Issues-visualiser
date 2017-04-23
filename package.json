@@ -1,48 +1,28 @@
 {
-<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
-  "name": "githubissues",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "dependencies": {
-    "angular": "^1.6.4",
-    "angular-chart.js": "^1.1.1",
-    "bootstrap": "^3.3.7",
-    "bower": "^1.8.0",
-=======
-  "name": "githubissuespersonal",
-  "version": "1.0.1",
-  "description": "From Laptop",
-  "main": "main.js",
-  "dependencies": {
-    "angular": "^1.6.4",
-    "angular-chart": "^0.5.0",
-    "angular-chart.js": "^1.1.1",
-    "bootstrap": "^3.3.7",
-    "bower": "^1.8.0",
-    "chart": "^0.1.2",
-    "chart.js": "^2.5.0",
->>>>>>> UI improvement
-    "express": "^4.15.2",
-    "jquery": "^3.2.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
-      "start":"node app.js"
-=======
-    "start": "node app.js"
->>>>>>> UI improvement
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avipeels/Github-Issues-visualiser.git"
-  },
-  "author": "Avinash Peelukhana",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/avipeels/Github-Issues-visualiser/issues"
-  },
-  "homepage": "https://github.com/avipeels/Github-Issues-visualiser#readme"
+    "name": "githubissues"
+    , "version": "1.0.0"
+    , "description": ""
+    , "main": "main.js"
+    , "dependencies": {
+        "angular": "^1.6.4"
+        , "angular-chart.js": "^1.1.1"
+        , "bootstrap": "^3.3.7"
+        , "bower": "^1.8.0"
+        , "name": "githubissuespersonal"
+    }
+    , "devDependencies": {}
+    , "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+        , "start": "node app.js"
+    }
+    , "repository": {
+        "type": "git"
+        , "url": "git+https://github.com/avipeels/Github-Issues-visualiser.git"
+    }
+    , "author": "Avinash Peelukhana"
+    , "license": "ISC"
+    , "bugs": {
+        "url": "https://github.com/avipeels/Github-Issues-visualiser/issues"
+    }
+    , "homepage": "https://github.com/avipeels/Github-Issues-visualiser#readme"
 }

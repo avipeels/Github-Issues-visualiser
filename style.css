@@ -6,11 +6,10 @@
     height: 300px
 }
 
-<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
-.gitHubUrlInputWidth{
+.gitHubUrlInputWidth {
     width: 30%;
 }
-=======
+
 .gitHubUrlInputWidth {
     width: 30%;
 }
@@ -35,4 +34,3 @@ center-caption-align {
     margin-left: auto;
     margin-right: auto
 }
->>>>>>> UI improvement
