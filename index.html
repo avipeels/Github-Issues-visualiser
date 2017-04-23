@@ -24,7 +24,7 @@
                         <h4>Closed Issues</h4>
                         <h6 class="inline-block">{{closedIssueCount}}</h6> </div>
                 </div>
-                <div class="row">
+                <div ng-if="showCharts" class="row">
                     <div class="optimalSize well col-md-6 margin-right-10pc">
                         <canvas width="300" height="300" id="chart-pie" class="chart chart-pie optimalSize" chart-data="issueCollection" chart-labels="labels" chart-options="options"></canvas>
                         <caption class="center-caption-align">Pie-Chart</caption>
