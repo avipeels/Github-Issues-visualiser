@@ -22,13 +22,21 @@
                 .then(function (response) {
                     $scope.closedIssueCount = (Object.keys(response.data).length);
                     _closedIssueCount = $scope.closedIssueCount;
+<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
                 })
                 .then(function () {
+=======
+                }).then(function () {
+>>>>>>> UI improvement
                     //data input for the pie-chart and bar graph
                     $scope.labels = ["Open Issues", "Closed Issues"];
                     $timeout(function () { //to handle delay in getting resolved promise
                         $scope.issueCollection = [_openIssueCount, _closedIssueCount]; //actual data to be depicted on diagrams
+<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
                     }, 1000);
+=======
+                    }, 0);
+>>>>>>> UI improvement
                     $scope.series = ["Open Issues", "Closed Issues"]; //used for bar graph
                 });
         };

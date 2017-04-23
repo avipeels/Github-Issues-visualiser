@@ -10,6 +10,7 @@
 
 <body ng-app="myApp">
     <div ng-controller="myCtrl">
+<<<<<<< 920bd1138c7aee9f9b5fe1b5a6a6bd325dc0bbaa
         <div>
             <input class="gitHubUrlInputWidth" placeholder="Please enter a github URL" github-url-validator ng-change="searchGithub()" ng-model-options="{debounce:800}" ng-model="githubAccount.githubUrl" type="text" id="githubUrl" name="githubUrl" title="Example:https://github.com/avipeels/dxThn"/>
             <div id="githubUrlError" ng-messages="githubUrl.$error">
@@ -47,6 +48,45 @@
         <script src="githubIssueController.js"></script>
         <script src="githubIssueService.js"></script>
         <script src="convertActualUrlToApiUrlService.js"></script>
+=======
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <input class="gitHubUrlInputWidth border-radius-5 " placeholder="Please enter a github URL" github-url-validator ng-change="searchGithub()" ng-model-options="{debounce:800}" ng-model="githubAccount.githubUrl" type="text" id="githubUrl" name="githubUrl" title="Example:https://github.com/avipeels/dxThn" />
+                    <div class="error-text" id="errors"> </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <h4>Open Issues</h4>
+                        <h6 class="inline-block">{{openIssueCount}}</h6> </div>
+                    <div>
+                        <h4>Closed Issues</h4>
+                        <h6 class="inline-block">{{closedIssueCount}}</h6> </div>
+                </div>
+                <div class="row">
+                    <div class="optimalSize well col-md-6 margin-right-10pc">
+                        <canvas width="300" height="300" id="chart-pie" class="chart chart-pie optimalSize" chart-data="issueCollection" chart-labels="labels" chart-options="options"></canvas>
+                        <caption class="center-caption-align">Pie-Chart</caption>
+                    </div>
+                    <div class="optimalSize well col-md-6">
+                        <canvas width="300" height="300" id="bar" class="chart chart-bar optimalSize" chart-data="issueCollection" chart-labels="labels" chart-series="series" chart-options="options"></canvas>
+                        <caption class="center-caption-align">Bar-Graph</caption>
+                    </div>
+                </div>
+                <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+                <script src="node_modules/angular/angular.min.js"></script>
+                <script src="node_modules/jquery/dist/jquery.min.js"></script>
+                <script src="node_modules/chart.js/dist/Chart.min.js"></script>
+                <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+                <link rel="stylesheet" href="style.css" />
+                <script src="main.js"></script>
+                <script src="githubIssueController.js"></script>
+                <script src="githubIssueService.js"></script>
+                <script src="convertActualUrlToApiUrlService.js"></script>
+            </div>
+        </div>
+    </div>
+>>>>>>> UI improvement
 </body>
 
 </html>
